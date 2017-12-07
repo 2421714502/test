@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="us.mifeng.administrator.yindao.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重新选择"
+        android:textSize="21.3sp"
+        android:onClick="reStart"
+        android:textColor="#ff6699" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="身份选择"
+        android:gravity="center"
+        android:layout_marginTop="50px"
+        android:textSize="21.3sp"
+        android:textColor="#ff6699"
+        tools:mockup_opacity="100" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="请小仙女选择一个在美课堂的身份吧"
+        android:gravity="center"
+        android:textSize="13sp" />
+
+    <RelativeLayout
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <ImageView
+            android:id="@+id/aihao"
+            android:layout_centerInParent="true"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/aihaozhe" />
+
+        <ImageView
+            android:id="@+id/meiye"
+            android:layout_centerInParent="true"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/meiyeren" />
+
+        <ImageView
+            android:id="@+id/shenghuo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/shenghuo_select"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/suxing"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/suxing_select"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/zhichang"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/zhichang_select"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/zhuti"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/zhuti_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/chuxue"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/chuxuezhe"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/zaizhi"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/zaizhizhe"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/jingying"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/jingyingzhe"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/huazhuang"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/huazhuang_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/meijia"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/meijia_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/meifa"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/meifa_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/meirong"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/meirong_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/meixue"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/meixue_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/yeji"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/yeji_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/jingyingguanli"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/jingying_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/caiwu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/caiwu_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/ziben"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ziben_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/qiye"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/qiye_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/tuandui"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tuandui_select"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/kaiqi"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/aihaozhe_kaiqimeili"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/meiyekaiqi"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/meiyeren_kaiqimeili"
+            android:visibility="gone"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</LinearLayout>
